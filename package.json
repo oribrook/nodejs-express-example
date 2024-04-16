@@ -1,0 +1,25 @@
+{
+  "name": "rest_api",
+  "version": "1.0.0",
+  "description": "simple REST API example",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/app.ts"
+  },
+  "keywords": [
+    "rest_api",
+    "REST",
+    "API"
+  ],
+  "author": "Ori Brook",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.12.5",
+    "express": "^4.19.2",
+    "fs.promises": "^0.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0"
+  }
+}
